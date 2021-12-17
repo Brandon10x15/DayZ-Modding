@@ -191,4 +191,5 @@ Now open up your `cfgGameplay.json` file and navigate to the `objectSpawnersArr`
 Save and upload your `cfgGameplay.json` to Nitrado, and reboot your server for changes to take place.  
   
 **Now, if you did everything correctly, you should have a well lit castle, with a water well and gas pump inside, spawned at this location:**  
+  
 ![Castle Location](./images/ChernarusCastleLocation.png)
