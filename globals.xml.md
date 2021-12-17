@@ -1,7 +1,7 @@
 # Table of Contents
 
  - [Home](https://github.com/Brandon10x15/DayZ-Modding/blob/main/README.md)
- - 
+ - [db/globals.xml](https://github.com/Brandon10x15/DayZ-Modding/blob/main/globals.xml.md)
 
 ## db/globals.xml
 0 for integer, 1 for float, 2 for string
