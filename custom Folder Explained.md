@@ -1,7 +1,7 @@
 # Table of Contents
 
  - [Home](https://github.com/Brandon10x15/DayZ-Modding/blob/main/README.md)
- - [Custom Folder Explained](https://github.com/Brandon10x15/DayZ-Modding/blob/main/custom%20Folder%20Explained.md)
+ - **Custom Folder Explained**
 
 ## Nitrado /custom folder explained
 If you use the Nitrado dashboard, you probably have seen this message:  
