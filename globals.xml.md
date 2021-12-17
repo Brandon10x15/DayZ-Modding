@@ -7,9 +7,7 @@
 0 for integer, 1 for float, 2 for string
 
 | Variable | Type | Default | Unit | Description |
-
-| - | - | - | - | - | - |
-
+| -------- | ---- | ------- | ---- | ----------- |
 | AnimalMaxCount | Integer | 200 | - | Maximal limit of spawned animals (not ambient) across all zones in map |
 
 |CleanupAvoidance|Integer|100|m|Distance from player required for item deletion|
