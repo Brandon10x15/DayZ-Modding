@@ -17,7 +17,7 @@ Open it in Notepad++ and add the following contents:
 	<event name="VehicleTruck_Custom">
 		<nominal>1</nominal>
 		<min>1</min>
-		<max>10</max>
+		<max>1</max>
 		<lifetime>300</lifetime>
 		<restock>0</restock>
 		<saferadius>10</saferadius>
@@ -28,7 +28,7 @@ Open it in Notepad++ and add the following contents:
 		<limit>mixed</limit>
 		<active>1</active>
 		<children>
-			<child lootmax="0" lootmin="0" max="10" min="10" type="Truck_01_Covered"/>
+			<child lootmax="0" lootmin="0" max="1" min="1" type="Truck_01_Covered"/>
 		</children>
 	</event>
 	<event name="ItemBuildingSupplies">
@@ -52,3 +52,34 @@ Open it in Notepad++ and add the following contents:
 	</event>
 </events>
 ```
+  
+Now we have the following new events in this file, `VehicleTruck_Custom` and `ItemBuildingSupplies`.
+  
+**VehicleTruck_Custom** will spawn 1 MS3 Truck.
+**ItemBuildingSupplies** will spawn 10 Metal Plates, 20 Wooden Planks, and 50 Wooden Logs, all in one pile.
+  
+Now upload this file to your Nitrado `/custom` folder.
+  
+In order to get this file to be read by the game, we'll need to add the file to our `cfgeconomycore.xml` file.
+  
+Open up your `cfgeconomycore.xml` file and add the following lines to the bottom, after `</defaults>` and before `</economycore>`.
+```xml
+	<ce folder="custom">
+		<file name="events_Custom.xml" type="events" />
+	</ce>
+```
+Now save the file and upload it to Nitrado, overwriting the existing file.
+  
+  
+***In order to get these to spawn, we'll need to add some location to our `cfgeventspawns.xml`***  
+  
+Open up your `cfgeventspawns.xml` file in Notepad++ and add the following to the bottom before `</eventposdef>`.  
+```xml
+	<event name="ItemBuildingSupplies">
+		<pos x="5682.47" z="11906.29" a="-27" />
+	</event>
+	<event name="VehicleTruck_Custom">
+		<pos x="5750.03" z="11929.14" a="40" />
+	</event>
+```
+Now save the file and upload it to Nitrado, overwriting the existing file.
