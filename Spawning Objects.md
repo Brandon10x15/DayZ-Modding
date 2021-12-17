@@ -17,7 +17,7 @@ To use spawn objects correctly, you'll need to use the DayZ PC version and a too
 Once you've got your XYZ coordinates, you can also get the RPY (Roll, Pitch, Yaw) using the same editor, if you want to rotate your objects.
   
 Here is a basic example on how to configure your JSON objects file.
-```xml
+```json
 {
     "Objects": [
         {
@@ -56,5 +56,5 @@ Once you've built your objects file, save it to something similar to `objects_Ma
   
 Now you have your objects in the correct folder, lets add the file to your `objectSpawnersArr` in `cfgGameplay.json`  
 Here's an example of what your `objectSpawnersArr` should look like.  
-```JSON
+```json
 "objectSpawnersArr": ["custom/objects_Map.json","custom/objects_Map1.json","custom/objects_Map2.json"]```
