@@ -60,3 +60,8 @@ Here's an example of what your `objectSpawnersArr` should look like.
 ```json
 "objectSpawnersArr": ["custom/objects_Map.json","custom/objects_Map1.json","custom/objects_Map2.json"]
 ```
+
+## A Practical Example
+
+**Now lets add this castle to Chernarus.**
+![Castle](./images/ChernarusCastle.png)
