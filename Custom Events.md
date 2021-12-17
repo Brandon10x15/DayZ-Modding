@@ -55,12 +55,12 @@ Open it in Notepad++ and add the following contents:
   
 Now we have the following new events in this file, `VehicleTruck_Custom` and `ItemBuildingSupplies`.
   
-**VehicleTruck_Custom** will spawn 1 MS3 Truck.
+**VehicleTruck_Custom** will spawn 1 MS3 Truck.  
 **ItemBuildingSupplies** will spawn 10 Metal Plates, 20 Wooden Planks, and 50 Wooden Logs, all in one pile.
   
 Now upload this file to your Nitrado `/custom` folder.
   
-**In order to get this file to be read by the game, we'll need to add the file to our `cfgeconomycore.xml` file.**  
+###In order to get this file to be read by the game, we'll need to add the file to our `cfgeconomycore.xml` file.
   
 Open up your `cfgeconomycore.xml` file and add the following lines to the bottom, after `</defaults>` and before `</economycore>`.
 ```xml
@@ -71,7 +71,7 @@ Open up your `cfgeconomycore.xml` file and add the following lines to the bottom
 Now save the file and upload it to Nitrado, overwriting the existing file.  
   
   
-***In order to get these to spawn, we'll need to add some location to our `cfgeventspawns.xml`***  
+###In order to get these to spawn, we'll need to add some location to our `cfgeventspawns.xml`
   
   When adding custom events, each event must be at least **25 meters away** from each other or they may not spawn.
   
