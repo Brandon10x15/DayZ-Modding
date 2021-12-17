@@ -47,7 +47,8 @@ Here is a basic example on how to configure your JSON objects file.
             ]
         }
     ]
-}```
+}
+```
   
 To avoid a reboot loop, keep these JSON files limited to **199 objects maximum**. You can make multiple JSON files if necessary.
   
@@ -57,4 +58,5 @@ Once you've built your objects file, save it to something similar to `objects_Ma
 Now you have your objects in the correct folder, lets add the file to your `objectSpawnersArr` in `cfgGameplay.json`  
 Here's an example of what your `objectSpawnersArr` should look like.  
 ```json
-"objectSpawnersArr": ["custom/objects_Map.json","custom/objects_Map1.json","custom/objects_Map2.json"]```
+"objectSpawnersArr": ["custom/objects_Map.json","custom/objects_Map1.json","custom/objects_Map2.json"]
+```
