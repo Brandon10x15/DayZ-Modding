@@ -1,8 +1,9 @@
 # Table of Contents
 
  - [Home](./README.md)
- - [/custom Folder Explained](./custom%20Folder%20Explained.md)
+ - [Nitrado /custom Folder](./Nitrado%20custom%20Folder.md)
  - [Object Spawning](./Spawning%20Objects.md)
+ - [Custom Events](./Custom%20Events.md)
 
 
 ## DayZ-Modding

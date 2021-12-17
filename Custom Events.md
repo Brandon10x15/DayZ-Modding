@@ -5,7 +5,7 @@
  - [Object Spawning](./Spawning%20Objects.md)
  - [Custom Events](./Custom%20Events.md)
 
-## Object Spawning
+## Custom Events
 DayZ has released a new way to spawn objects and buildings in update 1.15.  
   
 The first thing you'll need to do is `Enable cfgGameplay.json` in your Nitrado settings.
