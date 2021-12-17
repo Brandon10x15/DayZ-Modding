@@ -16,7 +16,7 @@ To use spawn objects correctly, you'll need to use the DayZ PC version and a too
 
 Once you've got your XYZ coordinates, you can also get the RPY (Roll, Pitch, Yaw) using the same editor, if you want to rotate your objects.
   
-Here is a basic example on how to configure your JSON objects file.
+Here is a basic example on how to configure your json objects file.
 ```json
 {
     "Objects": [
@@ -50,10 +50,10 @@ Here is a basic example on how to configure your JSON objects file.
 }
 ```
   
-To avoid a reboot loop, keep these JSON files limited to **199 objects maximum**. You can make multiple JSON files if necessary.
+To avoid a reboot loop, keep these json files limited to **199 objects maximum**. You can make multiple json files if necessary.
   
-Once you've built your objects file, save it to something similar to `objects_Map.JSON` and upload it to your `/custom` folder.  
-**Object JSON files not placed in the `/custom` folder will be ignored.**  
+Once you've built your objects file, save it to something similar to `objects_Map.json` and upload it to your `/custom` folder.  
+**Object json files not placed in the `/custom` folder will be ignored.**  
   
 Now you have your objects in the correct folder, lets add the file to your `objectSpawnersArr` in `cfgGameplay.json`  
 Here's an example of what your `objectSpawnersArr` should look like.  
@@ -180,18 +180,12 @@ Open a new notepad and copy the following contents:
 }
 ```
   
-Save this file as `objects_Castle.JSON`  
+Save this file as `objects_Castle.json`  
 Upload the file to the `/dayz.Offline.chernarusplus/custom` folder on Nitrado.  
   
-Now open up your `cfgGameplay.JSON` file and navigate to the `objectSpawnersArr` to include the new file.  
+Now open up your `cfgGameplay.json` file and navigate to the `objectSpawnersArr` to include the new file.  
 ```json
 "objectSpawnersArr": ["custom/objects_Castle.json"]
 ```
   
 Save and upload your `cfgGameplay.json` to Nitrado, and reboot your server for changes to take place.
-
-
-
-
-
-Now you have your objects in the correct folder, lets add the file to your `objectSpawnersArr` in `cfgGameplay.json`  
