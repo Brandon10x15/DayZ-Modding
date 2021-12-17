@@ -35,6 +35,7 @@
 |ZombieMaxCount|Integer|1000|-|Maximal limit of spawned zombies across all zones in map|
 |ZoneSpawnDist|Integer|300|m|Distance to invoke infected spawn in nearby zone (dynamic infected)|
 
+
 Default xml setup:
 ```xml
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
