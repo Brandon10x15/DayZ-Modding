@@ -17,6 +17,7 @@
 |CleanupLifetimeRuined|Integer|330|sec|Default lifetime for ruined loot|
 |FlagRefreshFrequency|Integer|432000|sec|Items lifetime will be refreshed with this frequency.|
 |FlagRefreshMaxDuration|Integer|3456000|sec|How long the flag will be refreshing items.|
+|FoodDecay|Integer|1|-|Allow decay on food (requires WorldWetTempUpdate set to 1).|
 |IdleModeCountdown|Integer|60|sec|Activate economy idle mode on empty server after given time|
 |IdleModeStartup|Integer|1|-|0 to disable idle mode on server startup (will still switch on later if IdleModeCountdown is not 0)|
 |InitialSpawn|Integer|100|%|How much loot will be spawned on server initial start (without storage).|
@@ -30,11 +31,11 @@
 |TimeLogin|Integer|15|sec|Default login time|
 |TimeLogout|Integer|15|sec|Default logout time|
 |TimePenalty|Integer|20|sec|Penalty time for player that is still in play session|
+|WorldWetTempUpdate|Integer|1|-|Allow update of wetness and temperature values on all items in the world.|
 |ZombieMaxCount|Integer|1000|-|Maximal limit of spawned zombies across all zones in map|
 |ZoneSpawnDist|Integer|300|m|Distance to invoke infected spawn in nearby zone (dynamic infected)|
-|WorldWetTempUpdate|Integer|1|-|Allow update of wetness and temperature values on all items in the world.|
-|FoodDecay|Integer|1|-|Allow decay on food (requires WorldWetTempUpdate set to 1).|
 
+Default xml setup:
 ```xml
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <variables>
