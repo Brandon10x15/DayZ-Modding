@@ -7,8 +7,11 @@
 0 for integer, 1 for float, 2 for string
 
 | Variable | Type | Default | Unit | Description |
-| - | - | - | - | - | - | 
-|AnimalMaxCount|Integer|200|-|Maximal limit of spawned animals (not ambient) across all zones in map|
+
+| - | - | - | - | - | - |
+
+| AnimalMaxCount | Integer | 200 | - | Maximal limit of spawned animals (not ambient) across all zones in map |
+
 |CleanupAvoidance|Integer|100|m|Distance from player required for item deletion|
 |CleanupLifetimeDeadAnimal|Integer|1200|sec|Default lifetime for dead animals|
 |CleanupLifetimeDeadInfected|Integer|330|sec|Default lifetime for dead infected
