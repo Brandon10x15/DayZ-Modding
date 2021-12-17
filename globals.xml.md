@@ -35,7 +35,7 @@
 |WorldWetTempUpdate|Integer|1|-|Allow update of wetness and temperature values on all items in the world.|
 |FoodDecay|Integer|1|-|Allow decay on food (requires WorldWetTempUpdate set to 1).|
 
-`
+```xml
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <variables>
     <var name="AnimalMaxCount" type="0" value="200"/>
@@ -66,4 +66,4 @@
     <var name="ZombieMaxCount" type="0" value="1000"/>
     <var name="ZoneSpawnDist" type="0" value="300"/>
 </variables>
-`
+```
