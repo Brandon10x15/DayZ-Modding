@@ -1,7 +1,8 @@
 # Table of Contents
 
- - [Home](https://github.com/Brandon10x15/DayZ-Modding/blob/main/README.md)
- - **Custom Folder Explained**
+ - [Home](https://github.com/Brandon10x15/DayZ-Modding/blob/main/ReadMe.md)
+ - [Custom Folder Explained](https://github.com/Brandon10x15/DayZ-Modding/blob/main/Custom%20Folder%20Explained.md)
+ - [Object Spawner](https://github.com/Brandon10x15/DayZ-Modding/blob/main/Object%20Spawner.md)
 
 ## Nitrado /custom folder explained
 If you use the Nitrado dashboard, you probably have seen this message:  
