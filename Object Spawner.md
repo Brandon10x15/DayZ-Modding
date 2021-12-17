@@ -1,6 +1,6 @@
 # Table of Contents
 
- - [Home](https://github.com/Brandon10x15/DayZ-Modding/blob/main/ReadMe.md)
+ - [Home](https://github.com/Brandon10x15/DayZ-Modding/blob/main/README.md)
  - [Custom Folder Explained](https://github.com/Brandon10x15/DayZ-Modding/blob/main/Custom%20Folder%20Explained.md)
  - [Object Spawner](https://github.com/Brandon10x15/DayZ-Modding/blob/main/Object%20Spawner.md)
 
