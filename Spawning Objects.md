@@ -72,21 +72,6 @@ Open a new notepad and copy the following contents:
 {
   "Objects": [
     {
-      "name": "Land_Garage_Big",
-      "pos": [ 6326.17578125, 258.9845886230469, 13545.2109375 ],
-      "ypr": [ -166.00274658203125, 0, 0 ]
-    },
-    {
-      "name": "Land_Airfield_Small_Hangar",
-      "pos": [ 7124.89599609375, 382.9620056152344, 8810.4990234375 ],
-      "ypr": [ -149, 0, 0 ]
-    },
-    {
-      "name": "Land_Airfield_Small_Control",
-      "pos": [ 7107.64501953125, 389.8590393066406, 8842.29296875 ],
-      "ypr": [ -149, 0, 0 ]
-    },
-    {
       "name": "Land_Castle_Gate",
       "pos": [ 5710.3876953125, 221.85804748535156, 11882.9130859375 ],
       "ypr": [ 45, 0, 0 ]
@@ -190,16 +175,6 @@ Open a new notepad and copy the following contents:
       "name": "Bonfire",
       "pos": [ 5738.83056640625, 220.05563354492188, 11888.716796875 ],
       "ypr": [ 45, 0, 0 ]
-    },
-    {
-      "name": "Land_Misc_Well_Pump_Yellow",
-      "pos": [ 7117.765625, 380.2993469238281, 8798.796875 ],
-      "ypr": [ -56.99965286254883, 0, 0 ]
-    },
-    {
-      "name": "Land_FuelStation_Feed_Enoch",
-      "pos": [ 7116.1240234375, 380.30303955078125, 8799.3994140625 ],
-      "ypr": [ 31.999549865722656, 0, 0 ]
     }
   ]
 }
