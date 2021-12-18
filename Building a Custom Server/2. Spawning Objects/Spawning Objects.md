@@ -66,7 +66,7 @@ Here's an example of what your `objectSpawnersArr` should look like.
 
 **Now lets add this castle to Chernarus.**  
   
-![Castle](./images/ChernarusCastle.png)
+![Castle](./_images/ChernarusCastle.png)
   
 Open a new notepad and copy the following contents:  
 ```json
@@ -193,4 +193,4 @@ Save and upload your `cfgGameplay.json` to Nitrado, and reboot your server for c
   
 **Now, if you did everything correctly, you should have a well lit castle, with a water well and gas pump inside, spawned at this location:**  
   
-![Castle Location](./images/ChernarusCastleLocation.png)
+![Castle Location](./_images/ChernarusCastleLocation.png)
