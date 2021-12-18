@@ -14,6 +14,7 @@ Tutorials and examples on how to modify DayZ private servers. Mainly geared towa
  - [Central Economy Config](https://community.bistudio.com/wiki/DayZ:Central_Economy_Configuration)
  - [Mission Files Modding](https://community.bistudio.com/wiki/DayZ:Central_Economy_mission_files_modding)
  - [Contaminated Area Config](https://community.bistudio.com/wiki/DayZ:Contaminated_Areas_Configuration)
+ - [cfgGameplay.json Settings](https://community.bistudio.com/wiki/DayZ:Gameplay_Settings)
  
  
  
